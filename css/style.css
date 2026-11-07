@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.koka {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 35px;
+  background-color: black;
+  border-bottom: 2px solid red;
+}
+
+.logo {
+  font-family: Impact, Arial, sans-serif;
+  font-size: 28px;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.logo span {
+  color: red;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  list-style: none;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-family: Impact, Arial, sans-serif;
+  font-size: 17px;
+  padding: 5px 0;
+}
+
+.navbar a:hover {
+  color: #c90c2b;
+  border-bottom: 2px solid #c90c2b;
+}
