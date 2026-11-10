@@ -50,3 +50,36 @@ body {
   color: #c90c2b;
   border-bottom: 2px solid #c90c2b;
 }
+
+/*Pjesa e faqes se Login Formes*/
+.container {
+  width: 100%;
+  max-width: 480px;
+  padding: 32px 19px;
+}
+
+.Hyrja {
+  background: #141212;
+  border-top: 4px solid #c8102e;
+  border-radius: 6px;
+  padding: 32px;
+}
+
+.Hyrja h1 {
+  font-family: Impact, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 35px;
+  letter-spacing: 1px;
+  margin-bottom: 16px;
+}
+
+#login {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#login label {
+  margin-top: 10px;
+  font-size: 15px;
+}
