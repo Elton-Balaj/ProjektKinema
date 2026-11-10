@@ -25,10 +25,22 @@ body {
   color: white;
   text-decoration: none;
   letter-spacing: 1px;
+  margin-bottom: -25px;
+  margin-top: -10px;
+  margin-right: auto;
 }
 
 .logo span {
   color: red;
+}
+
+#figura {
+  margin-top: -15px;
+}
+
+.koka img {
+  margin-right: 15px;
+  margin-bottom: -25px;
 }
 
 .navbar ul {
@@ -36,6 +48,8 @@ body {
   align-items: center;
   gap: 25px;
   list-style: none;
+  margin-bottom: -25px;
+  margin-top: -5px;
 }
 
 .navbar a {
