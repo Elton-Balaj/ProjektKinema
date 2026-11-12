@@ -179,12 +179,6 @@ body {
   border-top: 3px solid #c8102e;
 }
 
-.container {
-  width: 100%;
-  max-width: 480px;
-  padding: 32px 19px;
-}
-
 main {
   min-height: calc(100vh - 90px);
   display: flex;
