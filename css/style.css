@@ -50,3 +50,227 @@ body {
   color: #c90c2b;
   border-bottom: 2px solid #c90c2b;
 }
+
+/* ===== Forma e hyrjes ===== */
+.container {
+  width: 100%;
+  max-width: 480px;
+  padding: 32px 19px;
+  margin: 50px auto;
+}
+
+.Hyrja {
+  background: #141212;
+  border: 1px solid #2e2a2a;
+  border-top: 4px solid #c8102e;
+  border-radius: 6px;
+  padding: 32px;
+}
+
+.Hyrja h1 {
+  font-family: Impact, "Arial Narrow", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 35px;
+  letter-spacing: 1px;
+  margin-bottom: 16px;
+}
+
+#login {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#login label {
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+#login input[type="email"],
+#login input[type="password"],
+#login input[type="text"] {
+  width: 100%;
+  padding: 11px;
+  background: #000000;
+  color: #f1ece8;
+  border: 1px solid #2e2a2a;
+  border-radius: 6px;
+  font: inherit;
+}
+
+#login input:focus {
+  outline: none;
+  border-color: #c8102e;
+}
+
+/* Butoni Shfaq/Fshih fjalëkalimin */
+#login button[type="button"] {
+  align-self: flex-end;
+  padding: 5px 14px;
+  background: transparent;
+  color: #f1ece8;
+  border: 1px solid #c8102e;
+  border-radius: 6px;
+  font: inherit;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+#login button[type="button"]:hover {
+  background: #c8102e;
+}
+
+/* Checkbox-i "Më mbaj të kyçur" */
+#login .checkbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 6px;
+}
+
+/* Mesazhi i gabimit */
+.error {
+  min-height: 22px;
+  color: #ff6b6b;
+}
+
+/* Butoni Hyr */
+#login button[type="submit"] {
+  margin-top: 6px;
+  padding: 11px 22px;
+  background: #c8102e;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-family: Impact, "Arial Narrow", Arial, sans-serif;
+  font-size: 17px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+#login button[type="submit"]:hover {
+  background: #8f0b21;
+}
+
+.llogari {
+  margin-top: 19px;
+  text-align: center;
+}
+
+/* ===== Footer ===== */
+.fotter {
+  padding: 24px 32px;
+  text-align: center;
+  color: #a79f9a;
+  font-size: 14px;
+  border-top: 3px solid #c8102e;
+}
+
+.container {
+  width: 100%;
+  max-width: 480px;
+  padding: 32px 19px;
+}
+
+main {
+  min-height: calc(100vh - 90px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Hyrja {
+  background: #141212;
+  border-top: 4px solid #c8102e;
+  border-radius: 6px;
+  padding: 32px;
+}
+
+.Hyrja h1 {
+  font-family: Impact, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 35px;
+  letter-spacing: 1px;
+  margin-bottom: 16px;
+}
+
+#login {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#login label {
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+#login input[type="email"],
+#login input[type="password"],
+#login input[type="text"] {
+  width: 100%;
+  padding: 11px;
+  background: #000000;
+  color: #f1ece8;
+  border: 1px solid #2e2a2a;
+  border-radius: 6px;
+  font: inherit;
+}
+
+#login input:focus {
+  outline: 2px solid #c8102e;
+  outline-offset: 2px;
+}
+/* Butoni Shfaq/Fshih fjalëkalimin */
+#login button[type="button"] {
+  align-self: flex-end;
+  padding: 5px 14px;
+  background: transparent;
+  color: #f1ece8;
+  border: 1px solid #c8102e;
+  border-radius: 6px;
+  font: inherit;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+#login button[type="button"]:hover {
+  background: #c8102e;
+}
+
+/* Checkbox-i "Më mbaj të kyçur" */
+#login .checkbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 6px;
+}
+
+/* Mesazhi i gabimit */
+.error {
+  min-height: 22px;
+  color: #ff6b6b;
+}
+
+/* Butoni Hyr */
+#login button[type="submit"] {
+  margin-top: 6px;
+  padding: 11px 22px;
+  background: #c8102e;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-family: Impact, "Arial Narrow", Arial, sans-serif;
+  font-size: 17px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+#login button[type="submit"]:hover {
+  background: #8f0b21;
+}
+
+.llogari {
+  margin-top: 19px;
+  text-align: center;
+}
