@@ -25,10 +25,22 @@ body {
   color: white;
   text-decoration: none;
   letter-spacing: 1px;
+  margin-bottom: -25px;
+  margin-top: -10px;
+  margin-right: auto;
 }
 
 .logo span {
   color: red;
+}
+
+#figura {
+  margin-top: -15px;
+}
+
+.koka img {
+  margin-right: 15px;
+  margin-bottom: -25px;
 }
 
 .navbar ul {
@@ -36,6 +48,8 @@ body {
   align-items: center;
   gap: 25px;
   list-style: none;
+  margin-bottom: -25px;
+  margin-top: -5px;
 }
 
 .navbar a {
@@ -50,7 +64,6 @@ body {
   color: #c90c2b;
   border-bottom: 2px solid #c90c2b;
 }
-
 /* ===== Forma e hyrjes ===== */
 .container {
   width: 100%;
@@ -164,6 +177,45 @@ body {
   color: #a79f9a;
   font-size: 14px;
   border-top: 3px solid #c8102e;
+}
+
+.container {
+  width: 100%;
+  max-width: 480px;
+  padding: 32px 19px;
+}
+
+main {
+  min-height: calc(100vh - 90px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Hyrja {
+  background: #141212;
+  border-top: 4px solid #c8102e;
+  border-radius: 6px;
+  padding: 32px;
+}
+
+.Hyrja h1 {
+  font-family: Impact, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 35px;
+  letter-spacing: 1px;
+  margin-bottom: 16px;
+}
+
+#login {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#login label {
+  margin-top: 10px;
+  font-size: 15px;
 }
 
 .container {
