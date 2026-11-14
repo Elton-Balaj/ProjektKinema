@@ -143,7 +143,7 @@ main {
 /* Checkbox-i "Më mbaj të kyçur" */
 #login .checkbox {
   display: flex;
-  align-items: center;
+  align-items: left;
   gap: 8px;
   margin-top: 6px;
 }
@@ -175,6 +175,126 @@ main {
 .llogari {
   margin-top: 19px;
   text-align: center;
+}
+
+/*Pjesa e filmave apo slides*/
+.slider {
+  position: relative;
+  height: 550px;
+  overflow: hidden;
+}
+
+.slider::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 80px;
+  pointer-events: none;
+  background: linear-gradient(to top, #050505, transparent);
+}
+
+.slide {
+  display: none;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  height: 100%;
+  padding: 80px 104px;
+}
+
+.slide.active {
+  display: flex;
+}
+
+.slide h2 {
+  font-family: Impact, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 56px;
+  letter-spacing: 1px;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+.slide p {
+  margin: 8px 0 16px;
+  font-size: 18px;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.8);
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 22px;
+  background: rgb(161, 2, 2);
+  color: white;
+  border-radius: 6px;
+  font-family: Impact, Arial, sans-serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #5e0413;
+}
+
+.g1 {
+  background:
+    linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.9) 0%,
+      rgba(0, 0, 0, 0.5) 35%,
+      rgba(0, 0, 0, 0) 70%
+    ),
+    url("../Logo/avengers.jpg") center 20% / cover no-repeat #1b0003;
+}
+
+.g2 {
+  background:
+    linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.9) 0%,
+      rgba(0, 0, 0, 0.5) 35%,
+      rgba(0, 0, 0, 0) 70%
+    ),
+    url("../Logo/24993.jpg") center 30% / cover no-repeat #3a0a12;
+}
+
+.g3 {
+  background:
+    linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.9) 0%,
+      rgba(0, 0, 0, 0.5) 35%,
+      rgba(0, 0, 0, 0) 70%
+    ),
+    url("../Logo/the-odyssey-3840x2160-25035.jpg") center 30% / cover no-repeat
+      #1a0a0a;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  width: 44px;
+  height: 44px;
+  background: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+  border: 1px solid #c8102e;
+  cursor: pointer;
+}
+
+.arrow:hover {
+  background: red;
+}
+
+.prev {
+  left: 16px;
+}
+
+.next {
+  right: 16px;
 }
 
 /* ===== Footer ===== */
