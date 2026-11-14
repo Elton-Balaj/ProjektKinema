@@ -27,6 +27,59 @@
       </nav>
     </header>
 
+    <main>
+      <div class="container narrow">
+        <section class="panel">
+          <h1>Krijo llogari</h1>
+          <form id="registerForm" novalidate>
+            <label for="name">Emri dhe mbiemri</label>
+            <input type="text" id="name" name="name" required />
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+            <label for="password">Fjalëkalimi</label>
+            <div class="pass-row">
+              <input
+                type="password"
+                id="password"
+                name="password"
+                required
+                minlength="6"
+              />
+              <button type="button" class="toggle-pass" data-target="password">
+                Shfaq
+              </button>
+            </div>
+            <label for="city">Qyteti</label>
+            <select id="city" name="city" required>
+              <option value="">Zgjidh qytetin</option>
+              <option>Prishtinë</option>
+              <option>Prizren</option>
+              <option>Pejë</option>
+              <option>Gjakovë</option>
+              <option>Ferizaj</option>
+            </select>
+            <fieldset>
+              <legend>Lloji i biletës që preferon</legend>
+              <label class="check"
+                ><input type="radio" name="ticket" value="standard" checked />
+                Standard</label
+              >
+              <label class="check"
+                ><input type="radio" name="ticket" value="vip" /> VIP</label
+              >
+            </fieldset>
+            <label class="check"
+              ><input type="checkbox" id="terms" name="terms" /> Pranoj kushtet
+              e përdorimit</label
+            >
+            <p class="error" id="formError" role="alert"></p>
+            <button type="submit" class="btn">Regjistrohu</button>
+          </form>
+          <p class="alt">Ke llogari? <a href="login.html">Hyr</a></p>
+        </section>
+      </div>
+    </main>
+
     <!--
     <footer class="footer">
       <p>KinoMax, Rruga Jakup Balaj 57, Prishtine</p>
