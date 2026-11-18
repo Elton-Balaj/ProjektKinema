@@ -180,7 +180,7 @@ main {
 /*Pjesa e filmave apo slides*/
 .slider {
   position: relative;
-  height: 750px;
+  height: 650px;
   overflow: hidden;
 }
 
@@ -509,6 +509,48 @@ main {
 .film .btn {
   margin-top: auto;
   align-self: flex-start;
+}
+
+.p1 {
+  background:
+    linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0) 60%),
+    url("../Logo/avengers.jpg") center 20% / cover no-repeat #1b0003;
+}
+.p2 {
+  background:
+    linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0) 60%),
+    url("../Logo/24993.jpg") center 20% / cover no-repeat #1b0003;
+}
+.p3 {
+  background:
+    linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0) 60%),
+    url("../Logo/the-odyssey-3840x2160-25035.jpg") center 20% / cover no-repeat
+      #1b0003;
+}
+.p4 {
+  background:
+    linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0) 60%),
+    url("../Logo/freddy.jpg") center 20% / cover no-repeat #1b0003;
+}
+.p5 {
+  background:
+    linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0) 60%),
+    url("../Logo/spiderman.jpg") center 20% / cover no-repeat #1b0003;
+}
+.p6 {
+  background:
+    linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0) 60%),
+    url("../Logo/dune.jpg") center 20% / cover no-repeat #1b0003;
+}
+.p7 {
+  background:
+    linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0) 60%),
+    url("../Logo/hoppers.jpg") center 20% / cover no-repeat #1b0003;
+}
+.p8 {
+  background:
+    linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0) 60%),
+    url("../Logo/alien.jpg") center 20% / cover no-repeat #1b0003;
 }
 
 /* ===== Footer ===== */
