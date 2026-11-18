@@ -552,6 +552,34 @@ main {
     linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0) 60%),
     url("../Logo/alien.jpg") center 20% / cover no-repeat #1b0003;
 }
+/*Sidebar*/
+.sidebar {
+  flex: 0 0 280px;
+  background: #141212;
+  border-left: 4px solid #c8102e;
+  padding: 21px;
+}
+
+.schedule {
+  list-style: none;
+}
+
+.schedule li {
+  padding: 8px 0;
+}
+
+.schedule span {
+  display: inline-block;
+  min-width: 75px;
+  color: #c8102e;
+  font-family: Impact, Arial, sans-serif;
+}
+
+.note {
+  margin-top: 16px;
+  color: #a79f9a;
+  font-size: 14px;
+}
 
 /* ===== Footer ===== */
 .footer {
