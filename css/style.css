@@ -552,12 +552,14 @@ main {
     linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0) 60%),
     url("../Logo/alien.jpg") center 20% / cover no-repeat #1b0003;
 }
+
 /*Sidebar*/
 .sidebar {
-  flex: 0 0 280px;
+  flex: 0 0 350px;
   background: #141212;
   border-left: 4px solid #c8102e;
   padding: 21px;
+  margin-top: 45px;
 }
 
 .schedule {
@@ -577,6 +579,39 @@ main {
 
 .note {
   margin-top: 16px;
+  color: #a79f9a;
+  font-size: 14px;
+}
+
+.soon-title {
+  margin-top: 30px;
+}
+
+.soon li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 0;
+  border-bottom: 1px solid #c8102e;
+}
+
+.soon li:last-child {
+  border-bottom: none;
+}
+
+.soon-date {
+  flex: 0 0 90px;
+  color: #c8102e;
+  font-family: Impact, Arial, sans-serif;
+}
+
+.soon strong {
+  display: block;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.soon small {
   color: #a79f9a;
   font-size: 14px;
 }
