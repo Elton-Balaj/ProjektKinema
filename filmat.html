@@ -27,6 +27,158 @@
       </nav>
     </header>
 
+    <main class="filmat-main">
+      <div class="shfaqjet">
+        <section>
+          <h1>Të gjithë filmat</h1>
+          <div class="filtri">
+            <div class="filtri-butona">
+              <button type="button" class="filter-btn active" data-genre="all">
+                Të gjitha
+              </button>
+              <button type="button" class="filter-btn" data-genre="Aksion">
+                Aksion
+              </button>
+              <button type="button" class="filter-btn" data-genre="Animacion">
+                Animacion
+              </button>
+              <button type="button" class="filter-btn" data-genre="Aventurë">
+                Aventurë
+              </button>
+              <button
+                type="button"
+                class="filter-btn"
+                data-genre="Fantashkencë"
+              >
+                Fantashkencë
+              </button>
+              <button type="button" class="filter-btn" data-genre="Horror">
+                Horror
+              </button>
+            </div>
+            <input
+              type="search"
+              id="kerko"
+              placeholder="Kërko filma..."
+              aria-label="Kërko film"
+            />
+          </div>
+
+          <div class="grid" id="filmgrid">
+            <article class="film" data-genre="Aksion">
+              <div class="poster p1"><span>Avengers</span></div>
+              <div class="film-info">
+                <h3>Avengers</h3>
+                <p class="meta">Aksion, 118 min</p>
+                <p>
+                  Heronjtë më të fuqishëm të botës bashkohen për një betejë të
+                  madhe, që do ta vendosë fatin e Tokës.
+                </p>
+                <a class="btn" href="login.html">Rezervo bileta</a>
+              </div>
+            </article>
+
+            <article class="film" data-genre="Animacion">
+              <div class="poster p2"><span>The Goat</span></div>
+              <div class="film-info">
+                <h3>The Goat</h3>
+                <p class="meta">Animacion, 100 min</p>
+                <p>
+                  Një dhi e vogël me ëndrra të mëdha merr një shans të vetëm për
+                  t’u bashkuar me profesionistët dhe për të luajtur roarball,
+                  një sport i fortë.
+                </p>
+                <a class="btn" href="login.html">Rezervo bileta</a>
+              </div>
+            </article>
+
+            <article class="film" data-genre="Aventurë">
+              <div class="poster p3"><span>The Odyssey</span></div>
+              <div class="film-info">
+                <h3>The Odyssey</h3>
+                <p class="meta">Aventurë, 190 min</p>
+                <p>
+                  Pas luftës së gjatë, një luftëtar i lodhur përpiqet të kthehet
+                  në shtëpi, por rruga e tij mbushet me rreziqe.
+                </p>
+                <a class="btn" href="login.html">Rezervo bileta</a>
+              </div>
+            </article>
+
+            <article class="film" data-genre="Horror">
+              <div class="poster p4"><span>Five Nights at Freddy’s</span></div>
+              <div class="film-info">
+                <h3>Five Nights at Freddy’s</h3>
+                <p class="meta">Horror, 101 min</p>
+                <p>
+                  Një roje nate në një piceri të braktisur zbulon se kukullat e
+                  vjetra mekanike zgjohen kur bie errësira.
+                </p>
+                <a class="btn" href="login.html">Rezervo bileta</a>
+              </div>
+            </article>
+
+            <article class="film" data-genre="Aksion">
+              <div class="poster p5"><span>Spider-Man</span></div>
+              <div class="film-info">
+                <h3>Spider-Man</h3>
+                <p class="meta">Aksion, 104 min</p>
+                <p>
+                  Peter Parker, njeriu merimangë i Nju Jorkut, përballet me
+                  rreziqe të reja dhe me zgjedhje të vështira.
+                </p>
+                <a class="btn" href="login.html">Rezervo bileta</a>
+              </div>
+            </article>
+
+            <article class="film" data-genre="Fantashkencë">
+              <div class="poster p6"><span>Dune</span></div>
+              <div class="film-info">
+                <h3>Dune</h3>
+                <p class="meta">Fantashkencë, 126 min</p>
+                <p>
+                  Në një planet shkretëtirë, një grup luftëtarësh përballen me
+                  forca të fuqishme për të mbijetuar.
+                </p>
+                <a class="btn" href="login.html">Rezervo bileta</a>
+              </div>
+            </article>
+
+            <article class="film" data-genre="Animacion">
+              <div class="poster p7"><span>Hoppers</span></div>
+              <div class="film-info">
+                <h3>Hoppers</h3>
+                <p class="meta">Animacion, 105 min</p>
+                <p>
+                  Një grup kafshësh simpatike nisin një aventurë të këndshme
+                  plot humor, e përshtatshme për familjen.
+                </p>
+                <a class="btn" href="login.html">Rezervo bileta</a>
+              </div>
+            </article>
+
+            <article class="film" data-genre="Fantashkencë Horror">
+              <div class="poster p8"><span>The Alien</span></div>
+              <div class="film-info">
+                <h3>The Alien</h3>
+                <p class="meta">Fantashkencë, Horror, 132 min</p>
+                <p>
+                  Në një botë të errët e të largët, një ekip zbulon diçka që nuk
+                  duhej ta zgjonte kurrë.
+                </p>
+                <a class="btn" href="login.html">Rezervo bileta</a>
+              </div>
+            </article>
+          </div>
+
+          <p class="nuk-ka" id="nukKa" hidden>Nuk u gjet asnjë film.</p>
+        </section>
+
+          </div>
+        </section>
+      </div>
+    </main>
+
     <!--
     <footer class="footer">
       <p>KinoMax, Rruga Jakup Balaj 57, Prishtine</p>
