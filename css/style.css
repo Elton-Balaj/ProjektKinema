@@ -634,3 +634,58 @@ main {
     font-size: 29px;
   }
 }
+
+/* ===== Faqja Rreth nesh ===== */
+main.faqe-rreth {
+  display: block;
+  min-height: 0;
+}
+
+.rreth-wrap {
+  display: flex;
+  gap: 32px;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 19px;
+}
+
+.rreth-content {
+  flex: 1;
+}
+
+.rreth-content h1 {
+  font-family: Impact, "Arial Narrow", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 35px;
+  letter-spacing: 1px;
+  margin-bottom: 16px;
+}
+
+.rreth-content h2,
+.rreth-sidebar h2 {
+  font-family: Impact, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+  letter-spacing: 1px;
+  margin-bottom: 13px;
+}
+
+.rreth-panel {
+  background: #141212;
+  border: 1px solid #2e2a2a;
+  border-top: 4px solid #c8102e;
+  border-radius: 6px;
+  padding: 24px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.rreth-sidebar {
+  flex: 0 0 300px;
+  background: #141212;
+  border-left: 4px solid #c8102e;
+  padding: 21px;
+  margin-top: 56px;
+}
